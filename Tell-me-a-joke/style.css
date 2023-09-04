@@ -1,0 +1,81 @@
+@font-face {
+    font-family:myFont;
+    src: url(./Poppins-Black\ -\ Copy.ttf);
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:#5579c6c2;
+    position: absolute;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color:#5579C6;
+    height:70vh;
+    width:45vw;
+    position: absolute;
+    border: 2px solid black;
+    border-radius:55px;
+}
+
+.heading{
+    color: #1f1f1f;
+    font-size: 50px;
+    letter-spacing:4px;
+    position: absolute;
+    left:180px;
+    top: 30px;
+    font-family:myFont;
+}
+
+.haunted-eye{
+    width:690px;
+    position: absolute;
+    display: flex;
+    top: 5px;
+    left:105px;
+    opacity:.2;
+}
+
+.joke-generator{
+    position: absolute;
+    top:575px;
+    width:350px;
+    height:70px;
+    border-radius:40px;
+    border: none;
+    background-color: rgb(105, 173, 240);
+    color:white;
+    left:265px;
+    font-weight: bold;
+    transition:.5s;
+    font-size:25px;
+}
+
+.joke-generator:hover{
+    background-color: #fff;
+    color: rgb(105, 173, 240);
+}
+
+.output-box{
+    left:50px;
+    width:810px;
+    height:120px;
+    position: absolute;
+    top:250px;
+    font-size:20px;
+    color: #fff;
+    font-family:monospace;
+    font-weight: bold;
+}
+

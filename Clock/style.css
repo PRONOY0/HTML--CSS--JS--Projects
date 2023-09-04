@@ -1,0 +1,100 @@
+@font-face {
+    font-family:myDigitalFont;
+    src: url(./digital-7.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-size: cover;
+  opacity:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#box1{
+    font-size:278px;
+    position: absolute;
+    color:white;
+    font-family:myDigitalFont;
+}
+
+.cover-brace{
+    background: url(./mountains-sunset-evening-sky-landscape-lake-body-of-water-5120x2880-8273.jpg);
+    top:105px;
+    background-size: cover;
+    width:1500px;
+    height:800px;
+    position: absolute;
+    border-radius:40px;
+}
+
+
+.braces{
+    height:500px;
+    width:950px;
+    position: absolute;
+}
+
+.background-pic{
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+.blur-img{
+    position: absolute;
+    height:100%;
+    width:100%;
+    filter: blur(5px);
+}
+
+.small-box-forAmPm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:98px;
+    color: white;
+    font-family: myDigitalfont;
+    /* color:#fff */
+    width:90px;
+    height:90px;
+    position: absolute;
+    /* background-color: rebeccapurple; */
+    /* opacity: 0; */
+    left:1515px;
+    top:400px;
+}
+
+.today{
+    width:150px;
+    height:100px;
+    position: absolute;
+    font-size:105px;
+    font-family: myDigitalfont;
+    color:#fff;
+    top:170px;
+}
+
+#today-year{
+    left:440px;
+}
+
+#today-month{
+    left:689px;
+}
+
+#today-date{
+    left:1025px;
+}
+
+#today-day{
+    position: absolute;
+    left:1170px;
+}

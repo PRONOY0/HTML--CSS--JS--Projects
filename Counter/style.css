@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background-color:#344151;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color:#0398db;
+}
+
+.resultingBox{
+    font-size:35px;
+    padding-top:5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:50px;
+    height:50px;
+    background-color: antiquewhite;
+}
+
+.box{
+    position: relative;
+    left:50px;
+    width:150px;
+    height:50px;
+    background: #000;
+    display: flex;
+    justify-content:space-between;
+}
+
+.btn{
+    width:50px;
+    height:50px;
+    border: none;
+}
+
+.btn:active{
+    background-color: skyblue;
+}

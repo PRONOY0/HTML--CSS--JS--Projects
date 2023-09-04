@@ -1,0 +1,209 @@
+@font-face {
+  font-family: myfont;
+  src: url(./Poppins-Black.ttf);
+}
+
+* {
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  border-radius: 30px;
+  width: 30vw;
+  height: 60vh;
+  border: none;
+  position: relative;
+  transition: .5s;
+  box-shadow:1px 1px 8px #1f1f1f;
+}
+.box:hover{
+    box-shadow:1px 1px 50px #1f1f1f;
+    transform:scale(1.2);
+    
+}
+
+.top-box {
+  height: 15vh;
+  width: 31vw;
+  background-color: #4070f4;
+}
+
+.user-image {
+  border-radius: 120px;
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  border: 5px solid #4070f4;
+  bottom: 420px;
+  left: 210px;
+}
+
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 200px;
+  left: 205px;
+}
+
+.subheading {
+  position: absolute;
+  z-index: 2;
+  left: 160px;
+  top: 220px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: grey;
+  letter-spacing: 2px;
+  font-size: 27px;
+}
+
+.icons {
+  width: 56px;
+  position: absolute;
+  z-index: 10;
+  top: 300px;
+  /* left:50px; */
+}
+.fb {
+  position: absolute;
+  left: 110px;
+}
+
+.tw {
+  position: absolute;
+  left: 200px;
+}
+
+.ig {
+  position: absolute;
+  left: 290px;
+}
+
+.yt {
+  position: absolute;
+  left: 390px;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.btn-blue {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  width: 100px;
+  height: 40px;
+}
+
+.msg-btn {
+  cursor: pointer;  
+  background-color: #4070f4d0;
+  color: #fff;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  position: absolute;
+  width: 170px;
+  left: 315px;
+  border-radius: 50px;
+}
+
+.subs-btn {
+  cursor: pointer;
+  background-color: #4070f4d0;
+  color: #fff;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  width: 170px;
+  position: absolute;
+  left: 80px;
+}
+
+.btn-blue:hover {
+  transition: 0.4s;
+  background-color: #4070f4;
+}
+
+.last-icons {
+  width: 30px;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
+
+.comment {
+  position: absolute;
+  left: 290px;
+  cursor: pointer;
+}
+
+.text {
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 500px;
+  left: 90px;
+  font-size: 25px;
+  color: #1f1f1f;
+}
+
+.share {
+  cursor: pointer;  
+  position: absolute;
+  left: 440px;
+}
+
+.numberOF-comments {
+  position: absolute;
+  left: 380px;
+}
+
+.black-line {
+  height: 50px;
+  width: 2px;
+  background-color: #d4d4d4;
+  position: absolute;
+  /* top: 493px;
+    left:350px; */
+}
+
+.numberOF-share {
+  position: absolute;
+  left: 230px;
+}
+
+.line-for-comments {
+  position: absolute;
+  left: 345px;
+  top: 490px;
+}
+
+.line-for-share {
+  position: absolute;
+  left: 180px;
+  top: 490px;
+}
+
+.numberOF-likes {
+  position: absolute;
+  left: 60px;
+}
+
+.like {
+  cursor: pointer;
+  position: absolute;
+  left: 120px;
+}

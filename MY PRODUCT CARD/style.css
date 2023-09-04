@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+    margin:0px;
+    padding:0px;
+}
+#wrapper{
+    /* background-color: green; */
+    background-color:#FEE3D4;
+    width: 100vw;
+    height:100vh;
+}
+
+.container{
+    overflow-x:hidden;
+    overflow-y:auto;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:300px;
+    right:100px;
+}
+
+.mug{
+    height:441px;
+    border:1px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: rgba(255, 192, 203, 0.521);
+}
+
+.page{
+    background-color: white;
+    border:1px solid rgba(0, 0, 0, 0);
+    height:441px;
+    width: 450px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+.content{
+    position:relative;
+    left:30px;
+}
+
+#title{
+    padding-top: 20px;
+    box-sizing: border-box;
+    letter-spacing: 0.4em;
+    color:grey;
+}
+
+#heading{
+    padding-top: 15px;
+    font-size:40px;
+    font-weight: bold;
+}
+
+#para{
+    padding-top: 25px;
+    padding-bottom:30px;
+    font-size:larger;
+}
+
+#del-price{
+    position: relative;
+    right:160px;
+    top:3px;
+    color: gray;
+    font-size: 20px;
+}
+
+#real-price{
+    color:green;
+    font-weight:bolder;
+    font-size: 47px;
+}
+
+.addtocart{
+    position:relative;
+    background-color: rgba(9, 136, 16, 0.822);
+    width:390px;
+    height:50px;
+    border:1px solid black;
+    border-radius: 15px;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+
+.addtocart:link{
+    background-color: green;
+}
+
+.addtocart:hover{
+    background-color: rgb(70, 219, 25);
+}
+
+.addtocart:click{
+    background-color: blue;
+}
+
+
+
+.cart-img{
+    position:absolute;
+    right:280px;
+    bottom:16px;
+    height:24px;
+    width:24px;
+}
